@@ -107,6 +107,9 @@ header {
         header {
             padding: 1.3em;
         }
+        body{
+            font-size: 2em;
+        }
         #flex-box{
             display: flex;
             padding-bottom:0px;
@@ -120,6 +123,9 @@ header {
         }
     }
     @media screen and (min-width:800px){
+        body{
+            font-size: 2em;
+        }
         .flex-container{
             flex-direction: column;
             margin:2px;
